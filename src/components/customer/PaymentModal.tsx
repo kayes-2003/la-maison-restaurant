@@ -15,7 +15,7 @@ interface PaymentModalProps {
 
 type ModalState = 'initializing' | 'checkout' | 'demo' | 'success' | 'error'
 
-export function PaymentModal({ summary, userId, onClose, onSuccess }: PaymentModalProps) {
+export function PaymentModal({ summary, onClose, onSuccess }: PaymentModalProps) {
   const [modalState,   setModalState]   = useState<ModalState>('initializing')
   const [clientSecret, setClientSecret] = useState<string | null>(null)
   const [errorMsg,     setErrorMsg]     = useState<string | null>(null)
