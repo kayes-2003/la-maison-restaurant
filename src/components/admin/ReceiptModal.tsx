@@ -190,7 +190,7 @@ export function ReceiptModal({ order, onClose }: Props) {
       {/* ── Footer ── */}
       <div style={{ textAlign: 'center', fontSize: '11px', color: '#888', lineHeight: '1.8' }}>
         <div>Thank you for dining with us!</div>
-        <div>We hope to see you again soon 🙏</div>
+        <div>We hope to see you again soon.</div>
         <div style={{ marginTop: '6px', fontSize: '10px' }}>
           Generated: {new Date().toLocaleString()}
         </div>

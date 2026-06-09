@@ -119,7 +119,7 @@ function BackBtn({ onClick, label = 'Back to Sign In' }: { onClick: () => void; 
   )
 }
 
-// ✅ Main modal — clean and focused
+//  Main modal — clean and focused
 export function AuthModal({
   onClose, onAuth, signIn, signUp,
   resendConfirmation, sendPasswordReset, updatePassword,
